@@ -13,9 +13,10 @@ body {
 	/* background: linear-gradient(90deg, #C7C5F4, #776BCC);		 */
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
-    background-size: 100%;
+    /* background-size: 100%; */
+	background-size: 100%;
     /* width: 300px;
-    height: 300px; */
+    height: 300px;  */
 }
 
 .container {
@@ -122,22 +123,35 @@ body {
 }
 
 .login__submit {
-	background: #fff;
-	font-size: 14px;
+	background: #F3EFE0;
+	font-size: 17px;
 	margin-top: 30px;
-	padding: 16px 20px;
-	border-radius: 26px;
+	margin-left: 40%;
+	/* padding: 16px 20px; */
+	padding-top: 16px;
+	padding-bottom: 16px;
+	/* padding-right: 30px; */
+	/* padding-left: 90px; */
+	border-radius: 25px;
 	border: 1px solid #D4D3E8;
 	text-transform: uppercase;
 	font-weight: 900;
-	display: flex;
+	/* display: flex; */
+	display: block;
     text-align: center;
 	/* align-items: center; */
-	width: 100%;
+	width: 30%;
 	color: #4C489D;
 	box-shadow: 0px 2px 2px #5C5696;
 	cursor: pointer;
 	
+}
+
+.login__submit:hover{
+    /* border: 1px solid #f44336; */
+    background:  #BCCEF8;
+    transition: 1s;
+    
 }
 
 .login__submit:active,
