@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style_signup.css">
+</head>
+<body background="images/loginn.png">
+    <header class="head-area">
+        <div class="header-container">
+          <div class="logo">
+            <!-- <h1><span>Ank</span>Websites</h1> -->
+          </div>
+          <div class="mobile-nav">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="menu">
+            <ul class="menu1">
+              <li><a href="#" class="active"><a href="index.html">HOME</a></a></li>
+              <li><a href="#" class=""><a href="appointment.html">APPOINTMENT</a></a></li>
+              <li><a href="#" class=""><a href="login.html">LOGIN</a></a></li>
+              <li><a href="#" class=""><a href="sign2.html"><span class="Highlight">SIGNUP</span></a></a></li>
+              <li><a href="#" class=""><a href="about.html">ABOUT</a></a></li>
+              <li><a href="#" class=""><a href="contact.html">CONTACT US</a></a></li>
+            </ul>
+             </div>
+        </div>
+         
+      </header>
+<!-- NAVIGATION ADDED -->
+
+<!-- NOW MAIN CONTENT OF PAGE -->
+
+
+
+
+    <div id="bg">
+       <!-- <center> </center> -->
+      <br>
+      
+       
+        <b><u> <h1 >SIGNUP - DOCTOR</h1></u> </b> 
+        <div id="form">
+            <form method="get" action="submit.html">
+                <table id="table">
+                    <tr>
+                        <td>FIRST NAME:</td>
+                        <td>
+                            <input type="text" name="username" placeholder="Enter first name" />
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>LAST NAME:
+                            </td>
+                        <td><input type="text" name="username" placeholder="Enter last name" /> 
+                            </td>
+                    </tr>
+                    <tr>
+                    <td>
+
+                        DATE OF BIRTH:
+                    </td>
+                          <td>
+                            <input type="number" name="day" size="2" maxlength="2" placeholder="Day" min="1" max="31" /> 
+<select name="month">
+    <option value="month">Month</option>
+<option value="Jan">Jan</option>
+<option value="Feb">Feb</option>
+<option value="Mar">Mar</option>
+<option value="Apr">Apr</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="Aug">Aug</option>
+<option value="Sep">Sep</option>
+<option value="Oct">Oct</option>
+<option value="Nov">Nov</option>
+<option value="Dec">Dec</option>
+
+</select>
+<input type="text" name="year" size="5"  maxlength="4" placeholder="Year" /> 
+                           
+                          </td>  
+                    </tr>
+                    <tr>
+                        <td>EMAIL ID: </td>
+                        <td><input id="email" type="email" name="email" size="30" maxlength="100" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>PASSWORD: </td>
+                        <td><input id="pwd" type="password" placeholder="Atleast 1 number and 1 alphabet " size="30"> </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>CONFIRM PASSWORD: </td>
+                        <td><input id="pwd" type="password" placeholder="Pwd same should be same as above " size="30"> </td>
+                    </tr>
+
+                    <tr>
+                        <td>HIGHEST QUALIFICATION: </td>
+                        <td>
+                            <select name="qualification" id="">
+                                <option value="qualification">Highest Qualification</option>
+
+
+                                <option value="MBBS">MBBS</option>
+                                <option value="BDS">BDS</option>
+                                <option value="BAMS">BAMS</option>
+                                <option value="BUMS">BUMS</option>
+                                <option value="BHMS">BHMS</option>
+                                <option value="BYNS">BYNS</option>
+                                <option value="B.V.Sc & AH">B.V.Sc & AH </option>
+                                <option value="M.D">M.D</option>
+                                <option value="MS">MS</option>
+                                <option value="DNB">DNB</option>
+                                <option value="D.M">D.M</option>
+                                <option value="M. Ch">M. Ch</option>
+                                <option value="LRCP">LRCP</option>
+                                <option value="LRCS">LRCS</option>
+                                <option value="DCH">DCH</option>
+                                <option value="D.Derm">D.Derm</option>
+                                <option value="DipIMC">DipIMC</option>
+                                <option value="Dip Ther">Dip Ther</option>
+                                <option value="Dip Av Med">Dip Av Med</option>
+                                <!-- <option value="Pathologist">Pathologist</option>
+                                <option value="Pediatrician">Pediatrician</option>
+                                <option value="Physiatrist">Physiatrist</option>
+                                <option value="Plastic Surgeon">Plastic Surgeon</option>
+                                <option value="Podiatrist">Podiatrist</option>
+                                <option value="Pulmonologist">Pulmonologist</option>
+                                <option value="Radiologist">Radiologist</option>
+                                <option value="Rheumatologist">Rheumatologist</option>
+                                <option value="Urologist">Urologist</option> -->
+
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>SPECIFICATION: </td>
+                        <td>
+                            <select name="specification" id="">
+                                <option value="specification">Choose Specification</option>
+
+                                <option value="Allergist">Allergist</option>
+                                <option value="Anesthesiologist">Anesthesiologist</option>
+                                <option value="Cardiologist">Cardiologist</option>
+                                <option value="Colon and Rectal Surgeon">Colon and Rectal Surgeon</option>
+                                <option value="Critical Care Medicine Specialist">Critical Care Medicine Specialist</option>
+                                <option value="Dentist">Dentist</option>
+                                <option value="Dermatologist">Dermatologist</option>
+                                <option value="Endocrinologist">Endocrinologist</option>
+                                <option value="Gastroenterologist">Gastroenterologist</option>
+                                <option value="Geriatric Medicine Specialist">Geriatric Medicine Specialist</option>
+                                <option value="Hematologist">Hematologist</option>
+                                <option value="Palliative Medicine Specialist">Palliative Medicine Specialist</option>
+                                <option value="Internist">Internist</option>
+                                <option value="Nephrologist">Nephrologist</option>
+                                <option value="Neurologist">Neurologist</option>
+                                <option value="Ophthalmologist">Ophthalmologist</option>
+                                <option value="Oncologist">Oncologist</option>
+                                <option value="Osteopath">Osteopath</option>
+                                <option value="Otolaryngologist">Otolaryngologist</option>
+                                <option value="Pathologist">Pathologist</option>
+                                <option value="Pediatrician">Pediatrician</option>
+                                <option value="Physiatrist">Physiatrist</option>
+                                <option value="Plastic Surgeon">Plastic Surgeon</option>
+                                <option value="Podiatrist">Podiatrist</option>
+                                <option value="Pulmonologist">Pulmonologist</option>
+                                <option value="Radiologist">Radiologist</option>
+                                <option value="Rheumatologist">Rheumatologist</option>
+                                <option value="Urologist">Urologist</option>
+                                <option value="Other">Other</option>
+                                
+                                
+                                                                
+
+                            </select>
+                            <!-- <input type="text" name="" id="qualification" size="20"> -->
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            MOBILE NO:
+                            
+                        </td>
+                        <td><input type="tel" name="number" size="23" maxlength="12" placeholder="10 digit Mobile number"/>
+                            
+                        </td>
+                            
+                    </tr>
+                    <tr>
+                        <td>GENDER:</td>
+                        <td id="gen"><input id="female" type="radio" name="gender"
+                            value="f">
+                            <label for="female">Female</label>
+                            <input id="male" type="radio" name="gender"
+                            value="m">
+                            <label for="male">Male</label>
+                            </td>
+                    </tr>
+                    <tr><td>ADDRESS:</td>
+                    <td>
+                        <!-- <input type="text" size="30" style="height: 50px;"> -->
+                        <textarea rows="4" cols="30" id="" style="border-radius: 5px; border-color: black;">
+                    </textarea>
+                    </td></tr>
+                    <tr>
+                        <td>CITY:</td>
+                        <td>
+                            <input type="text" name="city" size="30"
+                            maxlength="30" placeholder="Enter your city name" /></td>
+                            
+                           
+                    </tr>
+                    <tr>
+                    
+                    <td>PIN CODE:</td>
+                        <td>
+                            <input type="text" name="pin" placeholder="Enter pin code" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>STATE:</td>
+                        <td>
+                            <input type="text" name="state" placeholder="Enter your state name" /></td>
+                            
+                           
+                    </tr>
+                    <tr>
+                        <td>COUNTRY:</td>
+                        <td>
+                            <input type="text" name="COUNTRY"  placeholder="Enter your city name" /></td>    
+                    </tr>
+
+                    <tr>
+                        <td>UPLOAD YOUR MEDICAL ID: </td>
+                        <td>
+                            <input type="file" width="20px">
+                        </td>
+                    </tr>
+                    </table>
+                    
+                    <table class="btnTable">
+                        <tr class="butn">
+                            <td >
+                                <button class="btn1" type="submit">SUBMIT</button>
+                                <button class="btn2" type="reset">RESET</button>
+                        </td>
+                        </tr>
+
+                        
+                    </table>
+                    
+               
+                    
+                
+                    
+
+
+                    
+                </table>
+            </form>
+
+
+        </div>
+ 
+     </div>
+    
+</body>
+</html>
