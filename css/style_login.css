@@ -359,7 +359,7 @@ h3{
   color: #fff;
   border-radius: 1px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
-  transition: background-color .218s, border-color .218s, box-shadow .218s;
+  /* transition: background-color .218s, border-color .218s, box-shadow .218s; */
 }
 .g-sign-in-button:hover {
   cursor: pointer;
@@ -391,7 +391,7 @@ h3{
   color: #fff;
   border-radius: 1px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
-  transition: background-color .218s, border-color .218s, box-shadow .218s;
+  /* transition: background-color .218s, border-color .218s, box-shadow .218s; */
 }
 .f-sign-in-button:hover {
   cursor: pointer;

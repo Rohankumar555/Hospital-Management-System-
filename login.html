@@ -41,24 +41,21 @@
         <div class="screen">
             <!-- <img src="images/loginDesign.jpg" alt=""> -->
             <div class="screen__content">
-                <form class="login" onsubmit="return validateForm()">
+                <form class="login">
                     <div class="login__field">
                         <!-- <i class="login__icon fas fa-user"></i> -->
-
                         <input type="text" class="login__input" placeholder="Username / Email" >
-
-                        <input type="text" class="login__input" placeholder="Username / Email" id="username">
-
                     </div>
                     <div class="login__field">
                         <!-- <i class="login__icon fas fa-lock"></i> -->
-                        <input type="password" class="login__input" placeholder="Password" id="password">
+                        <input type="password" class="login__input" placeholder="Password">
                     </div>
                     <button class="login__submit">
                         LOGIN
                         <!-- <span class="button__text">Log In Now</span> -->
                         <!-- <i class="button__icon fas fa-chevron-right"></i> -->
-                    </button>				
+                    </button>	
+                    <a href="adminLogin.html"><h6>Are u admin?</h6></a>			
                 </form>
                 
                 <div class="social-login">
@@ -106,20 +103,5 @@
         </div>
         
     </div>
-
-    
-    <script>
-        function validateForm() {
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
-            if (username == "" || password == "") {
-                alert("Username and password must be filled out");
-                return false;
-            }
-            return true;
-        }
-    </script>
-    
-
 </body>
 </html>
