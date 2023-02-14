@@ -86,7 +86,12 @@ a{
     }
     .hero:hover{
         border: 1px solid #f44336;
-        background:#f44336;
-        transition: 1s;
+        background: linear-gradient(90deg, rgba(18,9,121,0.7904411764705882) 1%, rgba(36,0,29,0.726015406162465) 42%, rgba(132,0,255,0.7148109243697479) 100%);
+    transition: 30s;
+
+        /* background:#f44336;
+        transition: 1s; */
         
     }
+
+    
